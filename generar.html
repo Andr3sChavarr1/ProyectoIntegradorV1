@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/generar.css">
+    <link rel="icon" href="recursos/logo.png">
+    <title>Proyectos Sociales</title>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <script
+      src="https://kit.fontawesome.com/41bcea2ae3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="body">
+    <header>
+      <div class="icon__menu">
+        <i class="fas fa-bars" id="btn_open"></i>
+      </div>
+      <div class="titulo">
+        <h1>Generar Programa</h1>
+      </div>
+      <div class="perfil-user">
+        <div class="foto-user">
+          <img src="https://image.freepik.com/iconos-gratis/icono-de-perfil-de-usuario_318-33925.jpg" alt="">
+        </div>
+        <div class="nombre-user">
+          <h4>Diana Sanches Torpoco</h4>
+          <h5>Ingenieria de Sistemas</h5>
+        </div>
+      </div>
+      
+    </header>
+    <nav class="menu__side" id="menu_side">
+      <div class="name__page">
+        <a href="index.html"><img src="recursos/logo.png" class="logoupeu"></a>
+        <img src="recursos/asdad.png" class="slogan">
+      </div>
+      <ul class="options__menu">
+        <li class="list__item">
+          <a class="option" href="inicio.html">
+            <i class="fas fa-home" title="Inicio"></i>
+            <h4>Inicio</h4>
+          </a>
+        </li>
+
+        <li class="list__item list__item--click">
+          <div class="list__butom list__butom--click">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+            <a class="option" href="generar.html"><h4>Generar</h4></a>
+          </div>
+
+        </li>
+
+
+          <a class="option" href="#">
+            <i class="fas fa-video" title="Cursos"></i>
+            <h4>Cursos</h4>
+          </a>
+
+
+
+          <a class="option" href="#">
+            <i class="far fa-sticky-note" title="Blog"></i>
+            <h4>Blog</h4>
+          </a>
+
+
+
+          <a class="option" href="#">
+            <i class="far fa-id-badge" title="Contacto"></i>
+            <h4>Contacto</h4>
+          </a>
+
+
+
+          <a class="option" href="#">
+            <i class="far fa-address-card" title="Nosotros"></i>
+            <h4>Nosotros</h4>
+          </a>
+
+      </ul>
+    </nav>
+
+    <main>
+     <!--Codigo de Generar-->
+      <div class="main-generar">
+        <div class="izquierda">
+        <div class="nombre-proyecto">
+        <h4>Nombre</h4>
+        <input type="text" name="nombre">
+        </div>
+        <div class="tipo-proyecto">
+        <h4>Tipo de Proyeccion</h4>
+        <select name="" id="">
+          <option selected>Elija una Opcion</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        </div>
+        <div class="objetivo-proyecto">
+        <h4>Objetivo</h4>
+        <textarea name="objetivo"></textarea>
+        </div>
+        <div class="descripcion-proyecto">
+        <h4>Descripcion</h4>
+        <textarea name="descripcion"></textarea>
+        </div>
+        <div class="costo-proyecto">
+        <h4>Costo</h4>
+        <input type="text" name="costo" placeholder="S/.">
+        </div>
+        </div>
+        <div class="lineamediobloques">
+          <input type="submit" name="" id="" value="Generar Programa">
+        </div>
+      <div class="derecha">
+        <div class="fechas">
+          <div class="fecha-proyecto">
+            <h4>Periodo</h4>
+            <div class="fechas-container">
+              <div class="fecha-container">
+                <h5>Fecha Inicio</h5>
+                <input type="date" name="fecha-inicio">
+              </div>
+              <div class="lineamid"></div>
+              <div class="fecha-container">
+                <h5>Fecha Fin</h5>
+                <input type="date" name="fecha-fin">
+              </div>
+            </div>
+          </div>
+        </div>        
+        <div class="semestre-proyecto">
+          <h4>Semestre</h4>
+          <select name="" id="">
+            <option selected>Elija el semestre Academico</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="cursos-articulados-proytecto">
+          <h4>Cursos Articulados</h4>
+          <select name="" id="">
+            <option selected>Elija los cursos articulados a este proyecto</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="localidad-proyecto">
+          <h4>Localidad</h4>
+          <select name="" id="">
+            <option selected>Elija la localidad beneficiada</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="poblacion-beneficiada-proyecto">
+          <h4>Poblacion Beneficiada</h4>
+          <input type="text" name="poblacion-beneficiada">
+        </div>
+        <div class="recursos-proyecto">
+          <h4>Recursos</h4>
+          <input type="file" name="" id="">
+        </div>
+        <div class="perfil-proyecto">
+          <h4>Perfil Proyecto</h4>
+          <input type="file" name="" id="">
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

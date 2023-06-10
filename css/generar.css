@@ -1,0 +1,119 @@
+.titulo{
+    margin-left: 20px;
+}
+.foto-user img{
+    width: 60px;
+}
+.perfil-user{
+    width: auto;
+    height: auto;
+    margin-left: 1000px;
+    display: flex;
+}
+.nombre-user{
+    margin-top: 10px;
+}
+.nombre-user h5{
+    margin-left: 10px;
+}
+.main-generar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 830px;
+    background: rgb(224, 221, 221);
+    border-radius: 40px;
+}
+/*Todo lo que tenga que ver con main*/
+.main-generar input{
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    margin: 10px 0 10px 0;
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+.main-generar select{
+    border: none;
+    font-size: 15px;
+    margin: 15px 0 15px 0;
+    width: 350px;
+    height: 35px;
+}
+.main-generar textarea{
+    width: 350px;
+    height: 200px;
+    border: none;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.main-generar h4{
+    font-size: 20px;
+}
+/*Termina el Main*/
+
+.izquierda{
+
+}
+/*Linea Medio de los Bloques*/
+.lineamediobloques{
+    border: 1px solid black;
+    width: 1px;
+    height: 620px;
+}
+.lineamediobloques input{
+    margin-top: 630px;
+    margin-left: -100px;
+    width: 200px;
+    padding-right: 7px;
+}
+/*Fin de Linea del medio bloque*/
+.derecha{
+
+
+}
+.derecha input{
+    margin: 10px 0 10px 0;
+}
+.recursos-proyecto input{
+    width: 430px;
+}
+.perfil-proyecto input{
+    width: 430px;
+}
+
+/*Codigo largo para fechas*/
+.fechas {
+  display: flex;
+}
+.fecha-proyecto {
+  display: flex;
+  flex-direction: column;
+}
+.fechas-container {
+  display: flex;
+}
+.lineamid{
+    margin: 50px 10px 0 10px;
+    width: 50px;
+    height: 1px;
+    border: 1px solid black;
+}
+.fechas input{
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 150px;
+}
+.fechas h5{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.fecha-proyecto h4{
+    margin-bottom: 10px;
+}
+/*Fin de Fechas*/
